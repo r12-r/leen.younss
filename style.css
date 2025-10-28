@@ -1,0 +1,65 @@
+ @font-face {
+    font-family: "Designer";
+    src: url("Designer.otf")
+    
+}
+
+ 
+ body {
+      background: linear-gradient(135deg, #ff006f, #ff00bf);
+      text-align: center;
+      padding: 40px;
+    }
+    .profile {
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      display: inline-block;
+      padding: 100px;
+      max-width: 350px;
+      box-shadow: 20px 20px 60px #ff0000, -20px -20px 60px #750707;
+    }
+
+
+    .profile img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ff00a2;
+    }
+    .name {
+      font-size: 1.5em;
+      margin: 15px 0;
+      color: #333;
+    }
+    .links a {
+      display: block;
+      margin: 8px 0;
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(135deg, #ff006f, #ff00bf);
+      padding: 10px;
+      border-radius: 10px;
+      border: 3px solid #ff00a2;
+      box-shadow:  100px ;
+      transition: 0.3s;
+    }
+    .links a:hover {
+      background: #b30098;
+    }
+
+    
+#copy {
+
+    position: relative;
+    /* bottom: -1000px ;  */
+}
+
+
+#dev-copy {
+
+    position: relative;
+    bottom: -350px;
+
+}
