@@ -1,0 +1,89 @@
+ @font-face {
+    font-family: "Designer";
+    src: url("Designer.otf")
+    
+}
+
+ 
+ body {
+      background: linear-gradient(135deg, #ff006f, #ff00bf);
+      text-align: center;
+      padding: 40px;
+    }
+
+    .profile {
+      background: #ffffff;
+      border-radius: 20px;
+      left: -25px;
+      bottom: -30px;
+      display: inline-block;
+      padding: 100px;
+      max-width: 250px;
+      text-align: center;
+      position: relative;
+      box-shadow: 20px 20px 60px #ff0000, -20px -20px 60px #750707;
+    }
+
+
+    .profile img {
+      width: 200px;
+      position: relative;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ff00a2;
+    }
+    .name {
+      font-size: 1.5em;
+      position: relative;
+      margin: 15px 0;
+      color: #333;
+    }
+    .links a {
+      display: block;
+      margin: 8px 0;
+      text-decoration: none;
+      color: white;
+      position: relative;
+      background: linear-gradient(135deg, #ff006f, #ff00bf);
+      padding: 10px;
+      border-radius: 10px;
+      border: 3px solid #ff00a2;
+      box-shadow:  100px ;
+      transition: 0.3s;
+    }
+    .links a:hover {
+      background: #b30098;
+    }
+
+    
+
+
+nav {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  background: #ff00a2;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  z-index: 50;
+   left: -18px;
+
+}
+
+nav a {
+  text-decoration: #ff00a2;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: -1rem 2rem;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+    font-size: 10px;
+}
+
+nav a:hover {
+  background: rgba(25, 77, 122, 0.1);
+}
